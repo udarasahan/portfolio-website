@@ -95,3 +95,26 @@
 .anchor-link img:hover {
     transform: scale(1.05);
 }
+
+@media(max-width: 768px) {
+    .footer {
+        margin: 5px 70px;
+    }
+    .footer-top {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-top-right {
+        
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-email-input input {
+        width: 100%;
+    }
+}
