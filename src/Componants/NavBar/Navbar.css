@@ -87,6 +87,13 @@
         left: 290px;
         width: 30px;
     }
+    .nav-mob-close:hover {
+        transform: scale(1.50);
+        border: none;
+        border-radius: 50%;
+        padding: 1px;
+        background-color: #98919a9a;
+    }
     .nav-menu {
         position: fixed;
         flex-direction: column;

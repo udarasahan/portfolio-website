@@ -109,7 +109,7 @@
     .services-format p {
         font-size: 18px;
         line-height: 32px;
-        max-width: 300px;
+        max-width: 250px;
         grid-template-columns: 1fr 1fr;
     }
     .services-readmore img {

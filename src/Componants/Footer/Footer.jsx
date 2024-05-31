@@ -1,7 +1,11 @@
 import './Footer.css';
 import logo from '../../assets/logo.png';
-import user from '../../assets/user.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import linkedin from '../../assets/linkedin.png';
+import github from '../../assets/github.png';
+import instagram from '../../assets/instagram.png';
+import facebook from '../../assets/facebook.png';
+
 
 const Footer = () => {
   return (
@@ -11,11 +15,12 @@ const Footer = () => {
             <AnchorLink className='anchor-link' offset={50} href='#navbar'><img src={logo} alt="" /></AnchorLink>
             </div>
             <div className="footer-top-right">
-                <div className="footer-email-input">
-                     <img src={user} alt="" />
-                     <input type="email" placeholder='Enter Your Email' />
+                <div className="footer-media-links">
+                     <a href="https://www.linkedin.com/in/udara-sahan-57421a1b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><img src={linkedin} alt="" /></a>
+                     <a href="https://github.com/udarasahan" target='_blank'><img src={github} alt="" /></a>
+                     <a href="https://www.instagram.com/don_jay____47?igsh=ZGdyeTltbThoaDNw" target='_blank'><img src={instagram} alt="" /></a>
+                     <a href="https://www.facebook.com/udarasahan.mikoyan?mibextid=ZbWKwL" target='_blank'><img src={facebook} alt="" /></a>
                 </div>
-                <div className="footer-subscribe">Subscribe</div>
             </div>
         </div>
         <hr />
