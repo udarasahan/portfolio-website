@@ -27,6 +27,7 @@ const Contact = () => {
         if (res.success) {
           console.log("Success", res);
           alert(res.message)
+          document.getElementById('contact-right').reset();
         }
       };
 
@@ -57,13 +58,13 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form onSubmit={onSubmit} className='contact-right'>
+            <form onSubmit={onSubmit} className='contact-right' id='contact-right'>
                 <label htmlFor="">Your Name</label>
-                <input type="text" placeholder='Enter Your Name' name='name'/>
+                <input type="text" placeholder='Enter Your Name' name='name' required/>
                 <label htmlFor="">Your Email</label>
-                <input type="email" placeholder='Enter Your Email' name='email'/>
+                <input type="email" placeholder='Enter Your Email' name='email' required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
                 <label htmlFor="">Write Your Message Here</label>
-                <textarea name="message" rows="8" placeholder='Enter Your Message' id=""></textarea>
+                <textarea name="message" rows="8" placeholder='Enter Your Message' id="" required></textarea>
                 <button type='submit' className='contact-submit'>Submit Now</button>
             </form>
         </div>
