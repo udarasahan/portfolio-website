@@ -70,8 +70,8 @@
 
 @media(max-width: 768px) {
     .footer {
-        width: 70%;
-        align-items: start;
+        width: auto;
+        align-items: center;
         margin-left: 20px;
 
     }
