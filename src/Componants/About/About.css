@@ -105,13 +105,17 @@
     .about-left {
         display: flex;
     }
+    .about-left img {
+        width: 380px;
+    }
     .about-para {
-        font-size: 18px;
-        line-height: 32px;
+        font-size: 15px;
+        line-height: 30px;
     }
     .about-skill {
-        gap: 20px;
+        gap: 10px;
         align-items: center;
+        margin: 10px;
     }
     .about-skill p {
         font-size: 20px;
