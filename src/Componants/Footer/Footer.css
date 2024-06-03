@@ -70,8 +70,10 @@
 
 @media(max-width: 768px) {
     .footer {
-        width: 65%;
+        width: 100%;
         align-items: start;
+        margin-left: auto;
+
     }
     .footer-top {
         display: flex;
