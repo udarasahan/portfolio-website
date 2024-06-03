@@ -101,13 +101,13 @@
     }
     .services-format {
         gap: 20px;
-        padding: 20px;
+        padding: 10px;
     }
     .services-format h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
     .services-format p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 32px;
         max-width: 250px;
         grid-template-columns: 1fr 1fr;
