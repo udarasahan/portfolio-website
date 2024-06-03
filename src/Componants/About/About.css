@@ -107,12 +107,12 @@
     }
     .about-left img {
         width: 350px;
-        margin: 5px;
+        margin: 10px;
     }
     .about-para {
         font-size: 15px;
         line-height: 30px;
-        margin: 5px;
+        margin: 10px;
     }
     .about-skill {
         gap: 10px;
