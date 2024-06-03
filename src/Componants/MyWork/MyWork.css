@@ -87,6 +87,7 @@
     .mywork-container {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        margin: 5px;
     }
     .mywork-container img {
         width: 100%;
@@ -96,5 +97,8 @@
         width: 130px;
         right: 90px;
         bottom: 40px;
+    }
+    .mywork-container h2 {
+        font-size: 20px;
     }
 }
