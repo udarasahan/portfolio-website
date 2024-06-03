@@ -72,7 +72,7 @@
     .footer {
         width: auto;
         align-items: center;
-        margin-left: 20px;
+        margin: 20px;
 
     }
     .footer-top {
@@ -83,7 +83,6 @@
     .footer-bottom {
         display: flex;
         flex-direction: column-reverse;
-        margin: 10px;
     }
     .footer-top-right {
         
