@@ -24,14 +24,14 @@ const ABout = () => {
                     contribute effectively to any team and bring fresh ideas to every project.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}} /></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>Express JS</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>JavaScript</p><hr style={{width:"75%"}} /></div>
-                    <div className="about-skill"><p>Next JS</p><hr style={{width:"40%"}} /></div>
-                    <div className="about-skill"><p>Java</p><hr style={{width:"80%"}} /></div>
-                    <div className="about-skill"><p>Kotlin</p><hr style={{width:"60%"}} /></div>
-                    <div className="about-skill"><p>C#</p><hr style={{width:"65%"}} /></div>
+                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"75%"}} /></div>
+                    <div className="about-skill"><p>JavaScript</p><hr style={{width:"65%"}} /></div>
+                    <div className="about-skill"><p>React JS</p><hr style={{width:"60%"}} /></div>
+                    <div className="about-skill"><p>Node JS</p><hr style={{width:"40%"}} /></div>
+                    <div className="about-skill"><p>MySQL & NoSQL</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>Java</p><hr style={{width:"7%"}} /></div>
+                    <div className="about-skill"><p>Kotlin</p><hr style={{width:"65%"}} /></div>
+                    <div className="about-skill"><p>C#</p><hr style={{width:"60%"}} /></div>
                 </div>
             </div>
            
