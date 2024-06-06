@@ -84,7 +84,7 @@
     transform: scale(1.05);
 }
 
-@media(max-width:768px) {
+@media(max-width:1260px) {
     .about{
         gap: 80px;
         margin: 50px;
@@ -106,8 +106,8 @@
         display: flex;
     }
     .about-left img {
-        width: 350px;
-        margin: 10px;
+        max-width: 100%;
+        height: auto;
     }
     .about-para {
         font-size: 15px;

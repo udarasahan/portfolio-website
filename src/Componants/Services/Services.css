@@ -85,7 +85,7 @@
     max-height: 250px;
 }
 
-@media(max-width:768px) {
+@media(max-width:968px) {
     .services {
         align-items: center;
         gap: 70px;

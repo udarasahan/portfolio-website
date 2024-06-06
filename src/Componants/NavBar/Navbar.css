@@ -35,7 +35,7 @@
 }
 
 .nav-connect {
-    padding: 12px 40px;
+    padding: 12px 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
     font-size: 22px;
@@ -65,7 +65,7 @@
     display: none;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1260px) {
     .navbar {
         margin: 20px 50px;
         padding-top: 20px;
