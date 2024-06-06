@@ -94,11 +94,11 @@
         margin-bottom: 50px;
     }
     .header-connect {
-        padding: 20px 30px;
+        padding: 20px 10px;
         border-radius: 40px;
     }
     .header-resume a {
-        padding: 20px 50px;
+        padding: 20px 30px;
         border-radius: 40px;
     }
 }
