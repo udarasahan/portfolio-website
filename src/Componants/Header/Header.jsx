@@ -14,7 +14,7 @@ const Heder = () => {
       <div className="header-action">
         <div className="header-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <div className='header-resume'>
-            <a href="https://drive.google.com/file/d/1TxFcTdRLi1NmJmGEJqH2zunkxJo1JVw3/view" target="_blank">My Resume</a>
+            <a href="https://drive.google.com/file/d/1Hv_vSNJxCPR_N8aaJFlCGvQHvL735xpt/view?usp=sharing" target="_blank">My Resume</a>
         </div>
       </div>
     </div>
