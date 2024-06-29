@@ -4,6 +4,7 @@ import sms from '../assets/student-management.png';
 import coffeeCage from '../assets/coffee-cage.png';
 import travelApp from '../assets/ceylon-oddessey.png';
 import vehicleApp from '../assets/car-rental.png';
+import coinRadar from "../assets/coin-radar.png"
 
 
 const mywork_data = [
@@ -11,6 +12,11 @@ const mywork_data = [
         w_no: "01",
         w_name: "Food Ordering Website",
         w_image: foodOrder
+    },
+    {
+        w_no: "07",
+        w_name: "CoinRadar",
+        w_image: coinRadar
     },
     {
         w_no: "02",
