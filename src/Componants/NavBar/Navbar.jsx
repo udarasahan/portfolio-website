@@ -18,7 +18,7 @@ const Navbar = () => {
     menuRef.current.style.right="-350px";
   }
 
-
+// Navbar
   return (
     <div className="navbar" id='navbar'>
         <img src={logo} alt="" />
