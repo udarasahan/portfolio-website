@@ -20,6 +20,7 @@ const Navbar = () => {
 
 
   return (
+    // Navbar Component
     <div className="navbar" id='navbar'>
         <img src={logo} alt="" />
         <img src={menuIcon} onClick={openMenu} alt="" className='nav-mob-open' />
